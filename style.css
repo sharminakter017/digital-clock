@@ -1,6 +1,6 @@
 .clock{
     margin:200px ;
-    font-size:50px;
+    font-size:30px;
     font-weight: 600;
 
    
@@ -14,7 +14,7 @@
     text-align: center;
     position: absolute;
     top: -5px !important;
-    left: 130px;
+    left: 90px;
     z-index: -9999;
     
 }
@@ -26,8 +26,8 @@
     font-size: 50px;
     font-weight: 200;
     position:relative;
-    top: -350px;
-    left:280px;
+    top: -330px;
+    left:230px;
     color: aliceblue;
     font-family: 'Vujahday Script', cursive;
 
@@ -42,7 +42,7 @@
 .amrpic{
     position: absolute;
     top: 260px;
-    left: 320px;
+    left: 260px;
     border: 2px solid #ddd;
     border-radius: 50%;
 }
@@ -52,8 +52,80 @@
     font-family: 'The Nautigal', cursive;
     position: absolute;
     top: 310px;
-    left: 310px;
+    left: 260px;
     color:aqua;
 
 }
 
+
+
+
+/* ===========================counter with loader================================ */
+
+
+
+#start{
+    margin-left: 100px !important;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+#start:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+#stop{
+    
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+#stop:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+#output{
+    font-size: 200px;
+    color: black;
+    margin-left: 80px;
+}
+
+.load{
+    border: 2px dotted red;
+    width: 60%;
+    height: 30px;
+    border-radius: 100px;
+    margin-left: 50px;
+    
+   
+
+}
+
+.loader{
+    width: 100%;
+    height: 30px;
+    background-color: red ;
+    border-radius: 100px;
+   
+}
+
+#add{
+    position: relative;
+    left: 200px;
+    top: -33px;
+   border-radius: 50%;
+   border: 2px dotted blueviolet;
+
+}
+
+
+
+
+ /* subject marks  */
+
+ .alu{
+    margin-top: 200px;
+ }
